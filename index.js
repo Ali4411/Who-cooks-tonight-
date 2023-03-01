@@ -31,7 +31,7 @@ function rollDice() {
         document.querySelector("h1").style.fontSize = "4rem";
     }
     else {
-        document.querySelector("h1").textContent = "Draw! We order takeaways.";
+        document.querySelector("h1").innerHTML = "Draw! We order takeaways. <br> Hooray!!";
         document.querySelector("h1").style.fontSize = "4rem";
     }
 
